@@ -23,8 +23,8 @@ const ScrollToTop: React.FC = () => {
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        <ArrowUpwardIcon fontSize='large' />
-        <CircularProgress variant="determinate" value={progress} />
+        <ArrowUpwardIcon className='ArrowUpwardIcon' fontSize='large' />
+        <CircularProgress className='CircularProgress' variant="determinate" value={50} />
       </a>
     </div>
   ) : null;

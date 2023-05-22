@@ -1,30 +1,32 @@
-import React from 'react';
-// import logo from './logo.svg';
+import React, { useContext } from 'react';
+import { ThemeContext } from './contexts/theme';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
-function App() {
+const App: React.FC = () => {
+  const [{ themeName }] = useContext(ThemeContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          顏浩昀
-        </h1>
-        <main>
-        <a
-          className="App-link"
-          href="../public/index.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          More
-        </a>
-        </main>
-      <ScrollToTop />
-      </header>
+    <div id='top' className={`${themeName} app`}>
+      <Header />
 
+      <main>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+
+      <ScrollToTop />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
