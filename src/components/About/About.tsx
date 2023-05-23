@@ -32,13 +32,13 @@ const About: React.FC = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {resume && (
+        {/* {resume && (
           <a href={resume}>
             <span className='btn btn--outline'>
               Resume
             </span>
           </a>
-        )}
+        )} */}
 
         {social && (
           <>

@@ -27,8 +27,8 @@ interface Header {
   }
   
   const header: Header = {
-    homepage: 'https://rajshekhar26.github.io/cleanfolio',
-    title: 'JS.',
+    homepage: 'https://xyhy.github.io/resume/',
+    title: 'YHY',
   };
   
   const about: About = {
@@ -80,6 +80,7 @@ interface Header {
     'TypeScript',
     'React',
     'Git',
+    'devops',
     'Jest',
     'Machine Learning',
     'Artificial Intelligence',

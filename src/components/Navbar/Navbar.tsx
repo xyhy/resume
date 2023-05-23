@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         style={{ display: showNavList ? 'flex' : undefined }}
         className='nav__list'
       >
-        {projects.length ? (
+        {/* {projects.length ? (
           <li className='nav__list-item'>
             <a
               href='#projects'
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
               Projects
             </a>
           </li>
-        ) : null}
+        ) : null} */}
 
         {skills.length ? (
           <li className='nav__list-item'>
