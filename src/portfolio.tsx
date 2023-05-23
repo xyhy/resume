@@ -32,14 +32,14 @@ interface Header {
   };
   
   const about: About = {
-    name: 'John Smith',
-    role: 'Front End Engineer',
+    name: '顏浩昀',
+    role: 'student graduated from National Tsin Hua University',
     description:
-      'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+      'Soon-to-graduate hardworking college student, good at multiple programming languages and with some app development project experience, seeks a position as a software/firmware engineer.',
     resume: 'https://example.com',
     social: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com',
+      linkedin: 'https://www.linkedin.com/in/yen-812yun/',
+      github: 'https://github.com/xyhy',
     },
   };
   
@@ -71,22 +71,22 @@ interface Header {
   ];
   
   const skills: string[] = [
+    'C',
+    'C++',
+    'Python',
     'HTML',
     'CSS',
     'JavaScript',
     'TypeScript',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
     'Git',
-    'CI/CD',
     'Jest',
-    'Enzyme',
+    'Machine Learning',
+    'Artificial Intelligence',
   ];
   
   const contact: Contact = {
-    email: 'johnsmith@mail.com',
+    email: 'xyhyjob@gmail.com',
   };
   
   export { header, about, projects, skills, contact };

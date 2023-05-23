@@ -10,10 +10,10 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 
 const App: React.FC = () => {
-  const [{ themeName }] = useContext(ThemeContext);
+  const curthemeName = useContext(ThemeContext);
 
   return (
-    <div id='top' className={`${themeName} app`}>
+    <div id='top' className={`${curthemeName.themeName} app`}>
       <Header />
 
       <main>

@@ -2,14 +2,14 @@ import React, { createContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 interface ThemeContextValue {
-  themeName: string;
-  toggleTheme: () => void;
+  themeName?: string;
+  toggleTheme?: () => void;
 }
 
-const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextValue>({});
 
 const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [themeName, setThemeName] = useState<string>('light');
+  const [themeName, setThemeName] = useState<string>('dark');
 
   useEffect(() => {
     const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
@@ -40,4 +40,4 @@ ThemeProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export { ThemeProvider, ThemeContext };
+export {  ThemeContext, ThemeProvider };

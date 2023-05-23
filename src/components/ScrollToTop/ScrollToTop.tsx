@@ -9,7 +9,7 @@ const ScrollToTop: React.FC = () => {
 
   useEffect(() => {
     const onScroll = () => { 
-      window.pageYOffset > 500 ? setIsVisible(true) : setIsVisible(false);
+      // window.pageYOffset > 500 ? setIsVisible(true) : setIsVisible(false);
       const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
       const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const percent = (winScroll / height) * 100;
@@ -24,7 +24,7 @@ const ScrollToTop: React.FC = () => {
     <div className='scroll-top'>
       <a href='#top'>
         <ArrowUpwardIcon className='ArrowUpwardIcon' fontSize='large' />
-        <CircularProgress className='CircularProgress' variant="determinate" value={50} />
+        <CircularProgress className='CircularProgress' variant="determinate" value={progress} />
       </a>
     </div>
   ) : null;

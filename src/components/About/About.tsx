@@ -24,7 +24,7 @@ const About: React.FC = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, 我是 <span className='about__name'>{name}.</span>
         </h1>
       )}
 

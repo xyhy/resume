@@ -8,9 +8,9 @@ import { projects, skills, contact } from '../../portfolio';
 import './Navbar.css';
 
 const Navbar: React.FC = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const curthemeName = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
-
+  
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
@@ -58,11 +58,11 @@ const Navbar: React.FC = () => {
 
       <button
         type='button'
-        onClick={toggleTheme}
+        onClick={curthemeName.toggleTheme}
         className='btn btn--icon nav__theme'
         aria-label='toggle theme'
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {curthemeName.themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
       <button
