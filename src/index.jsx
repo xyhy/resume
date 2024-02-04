@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
 ],
-  { basename: 'https://xyhy.github.io/resume/' }
+  { basename: '/resume/' }
 
 );
 
