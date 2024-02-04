@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
 ],
-  { basename: '/resume' }
+  { basename: '/resume/' }
 
 );
 
