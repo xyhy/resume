@@ -10,6 +10,8 @@ import Image from 'react-bootstrap/Image'
 import Header from '../component/Header'
 // import Footer from '../component/Footer'
 
+import picture from '../383155.jpg'
+
 import '../css/Contact.css'
 
 function Contact() {
@@ -19,7 +21,7 @@ function Contact() {
       <Container id='contact-container'>
         <hr id='red-line'></hr>
         <h1 id='contact-title'>C o n t a c t</h1>
-        <Image id='contact-img' src='../383155.jpg' />
+        <Image id='contact-img' src={picture} />
         <a className='contact-github' href='https://github.com/xyhy' target='_blank' rel='noopener noreferrer'>
           <GitHubIcon id='github-icon'></GitHubIcon>
           <span id='github-title'>GitHub</span>

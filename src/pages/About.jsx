@@ -8,6 +8,8 @@ import Image from 'react-bootstrap/Image';
 import Header from '../component/Header'
 // import Footer from '../component/Footer'
 
+import picture from '../108062213-6.jpg'
+
 import '../css/About.css'
 
 function About() {
@@ -17,7 +19,7 @@ function About() {
       <Container id='content-container'>
         <Row>
           <Col xxl={4} xl={4} lg={4} md={6} sm={12}>
-            <Image className='about-photo' src='../108062213-6.jpg' />
+            <Image className='about-photo' src={picture} />
           </Col>
           <Col xxl={8} xl={8} lg={8} md={6} sm={12} className='about-text'>
             <h1>Yancy Yen</h1>

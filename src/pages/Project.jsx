@@ -8,6 +8,9 @@ import Header from '../component/Header'
 // import Footer from '../component/Footer'
 import ProjectCard from '../component/ProjectCard'
 
+import picture1 from '../project1.png'
+import picture2 from '../project2.png'
+
 import '../css/Project.css'
 
 
@@ -15,13 +18,13 @@ function Project() {
 
   const projects = [
     {
-      src: '../project1.png',
+      src: picture1,
       title: 'Implementing Double-Link Blockchain with Proof-of-Refundable-Tax Consesum',
       description: '',
       link: 'https://github.com/jason7580/PoRT-js',
     },
     {
-      src: '../project2.png',
+      src: picture2,
       title: 'Undergraduate research fellowship, National Science and Technology Council （NSTC), Taiwan',
       description: '',
       link: '#',

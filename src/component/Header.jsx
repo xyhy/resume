@@ -6,6 +6,8 @@ import Image from 'react-bootstrap/Image';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
+import avatar from '../avatar.jpg'
+
 function Header() {
 
 
@@ -14,7 +16,7 @@ function Header() {
       <Container id='headerContainer'>
         <NavLink to='/' className='link' reloadDocument>
           <Navbar.Brand id='brand'>
-            <Image id='picture' src='../avatar.jpg' />
+            <Image id='picture' src={avatar} />
             Y.Y
           </Navbar.Brand>
         </NavLink>
