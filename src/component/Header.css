@@ -1,0 +1,127 @@
+.nav-bar{
+  background-color: #141414;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#picture{
+  position: relative;
+  margin-left: 30px;
+  margin-right: 15px;
+  /* padding-right: 9px; */
+  border-radius: 50%;
+  width: 55px;
+}
+
+#headerContainer{
+  position: sticky;
+  margin-left: 10px;
+  left: 0vw;
+  width: 50vw;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: #FDFDFD;
+}
+
+.link.active{
+  color:#D90100 !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 5px !important;
+  text-decoration-color: #D90100 !important;
+}
+
+
+.navbar-nav{
+  position: sticky;
+  left: 180px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+#brand{
+  text-decoration: none;
+  display: block;
+  position: static;
+  width: 100px;
+  color: #FDFDFD;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#about{
+  display: flex;
+  width: 60px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FDFDFD;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#project{
+  display: flex;
+  width: 80px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FDFDFD;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#course{
+  display: flex;
+  width: 80px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FDFDFD;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#contact{
+  display: flex;
+  width: 80px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FDFDFD;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Source Sans 3', sans-serif;
+}

@@ -1,0 +1,22 @@
+.card-body{
+  background-color: #1F1F1F;
+}
+
+.card-text{
+  color: #C04340;
+}
+
+.card-title{
+  color: #C04340;
+}
+
+.card{
+  max-width: 30vw;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.card-img-top{
+  aspect-ratio: 3/4;
+  max-height: 65vh;
+}

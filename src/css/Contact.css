@@ -1,0 +1,118 @@
+#contact-container{
+  position: relative;
+  margin-top: 84.39px;
+  max-width: 99vw;
+}
+
+#red-line{
+  position: fixed;
+  left: 3vw;
+  top: 38.5vh;
+  width: 70%;
+  border: 3px solid #D90100;
+  opacity: 1;
+}
+
+#contact-title{
+  position: fixed;
+  top: 28vh;
+  left: 6vw;
+  font-size: 6em;
+}
+
+#contact-img{
+  position: fixed;
+  top: 20vh;
+  left: 45vw;
+  width: 55vw;
+  height: 80vh;
+  /* padding: 10%; */
+  background-color: #D90100;
+  color: #E7E6E4;
+}
+
+.contact-email{
+  position: fixed;
+  top: 58vh;
+  left: 5.2vw;
+  background-color: #111111;
+  color: #F9F9F9;
+  font-size: 24px;
+}
+
+.contact-email:hover{
+  color: #D90100;
+  opacity: 1;
+}
+
+#email-icon{
+  position: relative;
+  top: -2px;
+  left: -8px;
+  font-size: 44px;
+}
+
+.contact-phone{
+  position: fixed;
+  top: 66vh;
+  left: 5.7vw;
+  background-color: #111111;
+  color: #F9F9F9;
+  font-size: 20px;
+}
+
+.contact-phone:hover{
+  color: #D90100;
+  opacity: 1;
+}
+
+#phone-icon{
+  position: relative;
+  top: -2px;
+  left: -12px;
+  font-size: 36px;
+}
+
+.contact-github{
+  position: fixed;
+  top: 42vh;
+  left: 5vw;
+  background-color: #111111;
+  color: #E7EDF3;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.contact-github:hover{
+  color: #D90100;
+  opacity: 1;
+}
+
+#github-icon{
+  position: relative;
+  top: -5px;
+  left: -6px;
+  font-size: 44px;
+}
+
+.contact-linkedin{
+  position: fixed;
+  top: 50vh;
+  left: 5vw;
+  background-color: #111111;
+  color: #E7EDF3;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.contact-linkedin:hover{
+  color: #D90100;
+  opacity: 1;
+}
+
+#linkedin-icon{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  font-size: 44px;
+}

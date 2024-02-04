@@ -1,0 +1,19 @@
+.course-container{
+  top: 10vh;
+  margin: 50px;
+  position: relative;
+  z-index: 0;
+  color:#C04340;
+}
+
+[class^='col-']{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.course-link{
+  text-decoration: none;
+  color: #FDFDFD;
+  font-size: 18px;
+}
