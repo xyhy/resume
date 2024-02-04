@@ -14,7 +14,7 @@ function Header() {
   return (
     <Navbar className='nav-bar' expand='md'>
       <Container id='headerContainer'>
-        <NavLink to='/' className='link' reloadDocument>
+        <NavLink to='/about' className='link' reloadDocument>
           <Navbar.Brand id='brand'>
             <Image id='picture' src={avatar} />
             Y.Y
