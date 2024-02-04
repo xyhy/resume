@@ -23,10 +23,10 @@ function Header() {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav navbar={true}>
-            <NavLink to='/about' className='link' id='about' reloadDocument>About</NavLink>
-            <NavLink to='/project' className='link' id='project' reloadDocument>Projects</NavLink>
-            <NavLink to='/course' className='link' id='course' reloadDocument>Courses</NavLink>
-            <NavLink to='/contact' className='link' id='contact' reloadDocument>Contact</NavLink>
+            <NavLink to='/about/' className='link' id='about' reloadDocument>About</NavLink>
+            <NavLink to='/project/' className='link' id='project' reloadDocument>Projects</NavLink>
+            <NavLink to='/course/' className='link' id='course' reloadDocument>Courses</NavLink>
+            <NavLink to='/contact/' className='link' id='contact' reloadDocument>Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
