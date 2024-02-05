@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
@@ -11,7 +11,8 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const router = createBrowserRouter([
+const router = createHashRouter(
+[
   {
     path: '/',
     element: <App />,
@@ -32,8 +33,7 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />,
   },
-],
-  { basename: '/resume/' }
+]
 
 );
 
