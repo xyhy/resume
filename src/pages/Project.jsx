@@ -19,7 +19,7 @@ function Project() {
   const projects = [
     {
       src: picture1,
-      title: 'Implementing Double-Link Blockchain with Proof-of-Refundable-Tax Consesum',
+      title: 'Double-linked Blockchain Approach Based on Proof-of-Refundable-Tax Consensus',
       description: '',
       link: 'https://github.com/jason7580/PoRT-js',
     },
