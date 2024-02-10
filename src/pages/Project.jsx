@@ -27,7 +27,7 @@ function Project() {
       src: picture2,
       title: 'Undergraduate research fellowship, National Science and Technology Council （NSTC), Taiwan',
       description: '',
-      link: '#',
+      link: '',
     },
   ];
 

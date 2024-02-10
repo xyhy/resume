@@ -20,30 +20,30 @@ function Course() {
       { name: '金融商品程式交易策略研究\u001AResearch on Program Trading Strategy for Financial Products', link: 'https://github.com/xyhy/ISA532300_Research-on-Program-Trading-Strategy-for-Financial-Products' }
     ],
     '2022': [
-      { name: '計算機系統管理 Computer System Administration', link: '#course-x' },
+      { name: '計算機系統管理 Computer System Administration', link: '' },
       { name: '人工智慧概論 Introduction to Intelligent Computing', link: 'https://github.com/xyhy/CS460100_Introduction-to-Intelligent-Computing' },
-      { name: '元宇宙與科技創新 Technology Innovation and the Metaverse', link: '#course-x' },
-      { name: '賽局理論及應用 Game theory and its Applications', link: '#course-y' },
-      { name: '正規語言 Formal Language & Automata', link: '#course-x' },
+      { name: '元宇宙與科技創新 Technology Innovation and the Metaverse', link: '' },
+      { name: '賽局理論及應用 Game theory and its Applications', link: '' },
+      { name: '正規語言 Formal Language & Automata', link: '' },
       { name: '計算機結構 Computer Architecture', link: 'https://github.com/xyhy/CS410002_Computer-Architecture' },
       { name: '雲端計算 Cloud Computing', link: 'https://github.com/xyhy/CS542100_Cloud-Computing' },
-      { name: '應用密碼學 Applied Cryptography', link: '#course-y' }
+      { name: '應用密碼學 Applied Cryptography', link: '' }
     ],
     '2021': [
       { name: '作業系統 Operating Systems', link: 'https://github.com/xyhy/CS342301_Operating-Systems' },
       { name: '計算方法設計 Design and Analysis of Algorithms', link: 'https://github.com/xyhy/CS431102_Design-and-Analysis-of-Algorithms' },
       { name: '機器學習概論 Introduction to Machine Learning', link: 'https://github.com/xyhy/CS460200_Introduction-to-Machine-Learning' },
       { name: '邏輯設計實驗 Logic Design Laboratory', link: 'https://github.com/xyhy/EECS207001_Logic-Design-Laboratory' },
-      { name: '軟體設計與實驗 Software Studio', link: '#course-x' },
+      { name: '軟體設計與實驗 Software Studio', link: '' },
     ],
     '2020': [
       { name: '資料結構 Data Structures', link: 'https://github.com/xyhy/EECS204001_Data-Structures' },
-      { name: '計算機網路概論 Introduction to Computer Networks', link: '#course-y' },
-      { name: '計算機程式設計二 Introduction to Programming (II)', link: '#course-x' },
-      { name: '邏輯設計 Logic Design', link: '#course-y' }
+      { name: '計算機網路概論 Introduction to Computer Networks', link: '' },
+      { name: '計算機程式設計二 Introduction to Programming (II)', link: '' },
+      { name: '邏輯設計 Logic Design', link: '' }
     ],
     '2019': [
-      { name: '計算機程式設計一 Introduction to Programming (I)', link: '#course-x' },
+      { name: '計算機程式設計一 Introduction to Programming (I)', link: '' },
     ],
     // Add courses for other years
   };
