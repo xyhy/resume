@@ -15,7 +15,7 @@ function Course() {
     '2023': [
       { name: '多媒體技術概論 Introduction to Multimedia', link: 'https://github.com/xyhy/CS357000_Introduction-to-Multimedia' },
       { name: '軟體工程 Software Engineering', link: 'https://github.com/xyhy/CS446100_Software-Engineering' },
-      { name: '高等賽局理論與應用 Advanced game Theory and its applications', link: 'https://github.com/xyhy' },
+      { name: '高等賽局理論與應用 Advanced game Theory and its applications', link: '' },
       { name: '計算機圖學 Computer Graphics', link: 'https://github.com/xyhy/CS550000_Computer-Graphics' },
       { name: '金融商品程式交易策略研究\u001AResearch on Program Trading Strategy for Financial Products', link: 'https://github.com/xyhy/ISA532300_Research-on-Program-Trading-Strategy-for-Financial-Products' }
     ],
@@ -34,16 +34,16 @@ function Course() {
       { name: '計算方法設計 Design and Analysis of Algorithms', link: 'https://github.com/xyhy/CS431102_Design-and-Analysis-of-Algorithms' },
       { name: '機器學習概論 Introduction to Machine Learning', link: 'https://github.com/xyhy/CS460200_Introduction-to-Machine-Learning' },
       { name: '邏輯設計實驗 Logic Design Laboratory', link: 'https://github.com/xyhy/EECS207001_Logic-Design-Laboratory' },
-      { name: '軟體設計與實驗 Software Studio', link: '' },
+      { name: '軟體設計與實驗 Software Studio', link: 'https://github.com/xyhy/CS241002_Software-Studio' },
     ],
     '2020': [
       { name: '資料結構 Data Structures', link: 'https://github.com/xyhy/EECS204001_Data-Structures' },
-      { name: '計算機網路概論 Introduction to Computer Networks', link: '' },
-      { name: '計算機程式設計二 Introduction to Programming (II)', link: '' },
+      { name: '計算機網路概論 Introduction to Computer Networks', link: 'https://github.com/xyhy/EECS302002_Introduction-to-Computer-Networks' },
+      { name: '計算機程式設計二 Introduction to Programming (II)', link: 'https://github.com/xyhy/CS135502_Introduction-to-Programming' },
       { name: '邏輯設計 Logic Design', link: '' }
     ],
     '2019': [
-      { name: '計算機程式設計一 Introduction to Programming (I)', link: '' },
+      { name: '計算機程式設計一 Introduction to Programming (I)', link: 'https://github.com/xyhy/CS135502_Introduction-to-Programming' },
     ],
     // Add courses for other years
   };
