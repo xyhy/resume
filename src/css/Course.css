@@ -18,6 +18,14 @@
   font-size: 18px;
 }
 
+.course-link:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: #C04340;
+  color: #C04340;
+}
+
 .course-link-disable{
   text-decoration: none;
   color: #FDFDFD;
