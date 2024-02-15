@@ -8,7 +8,7 @@ import Header from '../component/Header'
 // import Footer from '../component/Footer'
 import ProjectCard from '../component/ProjectCard'
 
-import picture1 from '../project1.png'
+import picture1 from '../project1_c.jpeg'
 import picture2 from '../project2.png'
 
 import '../css/Project.css'

@@ -17,3 +17,10 @@
   color: #FDFDFD;
   font-size: 18px;
 }
+
+.course-link-disable{
+  text-decoration: none;
+  color: #FDFDFD;
+  font-size: 18px;
+  pointer-events: none;
+}

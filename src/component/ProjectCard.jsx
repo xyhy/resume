@@ -10,13 +10,13 @@ import './ProjectCard.css';
 function ProjectCard({ src, title, description, link }) {
   return (
     <Card>
-      <Card.Img variant='top' src={src} />
-      <Card.Body>
-        <Button variant='outline-secondary' href={link} target='_blank' rel='noopener noreferrer'>
+      <Button variant='outline-secondary' href={link} target='_blank' rel='noopener noreferrer'>
+        <Card.Img variant='top' src={src} />
+        <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
-        </Button>
-      </Card.Body>
+        </Card.Body>
+      </Button>
     </Card>
   );
 }

@@ -1,16 +1,68 @@
-#header{
-    background-color: #282c34;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 0 2rem;
-    font-size: calc(10px + 2vmin);
+.back{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
 }
 
-#avatar{
-    margin: auto;
-    background-color: silver;
+#mainpicture {
+    opacity: 0.8;
+    position: absolute;
+    transform: scale(0.75) translate(-17%, -25%);
+}
+
+
+#main-about{
+    color: #F9F9F9;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-decoration: none;
+}
+
+#main-about:hover{
+    color: #D90100;
+}
+
+#main-project{
+    color: #F9F9F9;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-decoration: none;
+}
+
+#main-project:hover{
+    color: #D90100;
+}
+
+#main-course{
+    color: #F9F9F9;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-decoration: none;
+}
+
+#main-course:hover{
+    color: #D90100;
+}
+
+#main-contact{
+    color: #F9F9F9;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-decoration: none;
+}
+
+#main-contact:hover{
+    color: #D90100;
 }

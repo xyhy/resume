@@ -40,7 +40,7 @@ function About() {
             <span>National Tsing Hua University, Departmant of Computer Science</span>
             <p>2019 Fall ~ 2023 Spring</p>
             <hr></hr>
-            <h3>Abilities</h3>
+            {/* <h3>Abilities</h3> */}
           </Col>
         </Row>
       </Container>

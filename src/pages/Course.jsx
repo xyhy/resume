@@ -59,7 +59,7 @@ function Course() {
             <Row>
               {courses[year]?.map((course, index) => (
                 <Col key={index} xs={12} md={4} lg={3}>
-                  <a href={course.link} className='course-link' target='_blank' rel='noopener noreferrer'>{course.name}</a>
+                  {course.link === '' ? <p className='course-link-disable'>{course.name}</p> : <a href={course.link} className='course-link' target='_blank' rel='noopener noreferrer'>{course.name}</a>}
                 </Col>
               ))}
             </Row>
